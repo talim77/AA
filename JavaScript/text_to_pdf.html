@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Text to PDF Converter</title>
+</head>
+<body>
+
+<h1>Text to PDF Converter</h1>
+<textarea id="inputText" rows="10" cols="50">Enter your text here...</textarea><br>
+<button onclick="convertToPDF()">Convert to PDF</button>
+
+<script>
+function convertToPDF() {
+    // Get the input text
+    var inputText = document.getElementById('inputText').value;
+    
+    // Create a new Blob object with the text content
+    var blob = new Blob([inputText], { type: 'text/plain' });
+    
+    // Create a URL for the Blob object
+    var url = URL.createObjectURL(blob);
+    console.log(url);
+    
+    // Create a link element
+    var link = document.createElement('a');
+    
+    // Set the href attribute of the link to the Blob URL
+    link.href = url;
+    
+    // Set the download attribute of the link
+    link.download = 'text_to_pdf.pdf';
+    
+    // Append the link to the body
+    document.body.appendChild(link);
+    
+    // Programmatically click the link to trigger the download
+    link.click();
+    
+    // Remove the link from the body
+    document.body.removeChild(link);
+}
+</script>
+
+</body>
+</html>

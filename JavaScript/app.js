@@ -5,4 +5,4 @@ let obj = {
 };
 let {id, name: fullName, add} = obj;
 console.log(id, fullName, add);
-console.log(fullName)
+console.log(fullName);
