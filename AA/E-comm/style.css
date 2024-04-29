@@ -1,0 +1,242 @@
+body{
+    background-color: black;
+    color: white;
+    border: 2px dashed red;
+    font-size: 16px;
+    padding: 150px 0px !important;
+}
+a{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* isme ka bhi template khatam */
+#nav{
+    min-width: 100%;
+    box-shadow: 0px 4px 10px -5px rgba(22, 22, 255, 1);
+}
+.header{
+    /* justify-content: space-between; */
+    align-items: center;
+    min-height: 50px;
+}
+.header li:nth-child(1),
+.header li:nth-child(2),
+.header li:nth-child(3){
+    margin-right: 15px;
+}.header li{
+    min-width: 80px;
+    max-width: 100px;
+    padding: 5px 10px;
+    border: 2px solid;
+    cursor: pointer;
+    transition: all 0.25s;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}.header li:hover{
+    transform: scale(1.1);
+    background-color: rgba(22, 22, 155, 0.5);
+
+    border: 2px solid blue;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+/* header part is done */
+
+.landing{
+    position: relative;
+    justify-content: start;
+    height: 750px;
+}
+.title{
+    width: 100%;
+    position: relative;
+    top: 20px;
+    right: 0;
+}
+.title h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.landing .img{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+img{
+    width: 100%;
+    /* max-width: 400px; */
+    border-radius: 2px;
+}
+
+
+/* dusara section ka styling */
+.featured-products{
+    margin: 50px 0px;
+    overflow: hidden;
+}
+.section-2 h2{
+    margin: 20px 0px;
+    padding: 5px 20px;
+    color: rgba(52, 52, 185, 1);
+
+    border-bottom: 4px solid rgba(255, 255, 255, 1);
+    border-radius: 10px;
+}
+
+
+.left-box{
+    max-width: 50%;
+    border-radius: 10px;
+    max-width: 300px;
+    transition: all 0.2s ease-in-out;
+    opacity: 0.75;
+    }
+.right-box{
+    max-width: 50%;
+    border-radius: 10px;
+    max-width: 300px;
+    transition: all 0.2s ease-in-out;
+    opacity: 0.75;
+}
+.img{
+    max-height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img img{
+    max-height: 100%;
+}
+
+.product-info{
+    gap: 5px;
+    padding: 10px;
+    border-radius: 2px;
+    align-items: start;
+    background-color: rgba(22, 22, 155, 0.5);
+}
+.product-info> h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn-buy-now{
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgba(22, 22, 155, 0.8);
+
+}
+.hover:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+    opacity: 1;
+}
+
+/* shop page styling */
+
+.tmpltData{
+    border: 1px solid aqua;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+}
+
+.shop-row{
+    display: flex;
+    gap: 20px;
+}
+.shop-col{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/* product page styling */
+
+.row{
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    /* border: 2px solid red; */
+    width: 300px;
+}
+.row> .left-section{
+    width: 100%;
+    /* border: 5px solid white; */
+    padding: 0.5rem;
+    flex-direction: column-reverse;
+    align-items: start;
+    background-color: rgba(22, 22, 22, 0.99);
+}
+.right-section{
+    align-items: start;
+}
+
+.more-images{
+    /* border: 1px solid white; */
+    width: 100%;
+    /* max-width: 300px; */
+    max-height: 100px;
+    padding: 0.5rem;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-around;
+    overflow: scroll;
+    overflow: hidden;
+    background-color: rgba(22, 22, 22, 0.99);
+}
+.more-images> img{
+    width: 80px;
+    height: 90px;
+    /* margin: 0.5rem; */
+    border-radius: 3px;
+}
+
+.product-img{
+    width: 100%;
+}
+
+.buttons> button{
+    margin: 10px 10px 10px 0px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgba(205, 205, 205, 0.8);
+    background-color: rgba(22, 22, 52, 0.99);
+    transition: all ease 0.3s;
+
+}
+.buttons> button:hover{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(52, 52, 92, 0.70);
+    transform: scale(1.05);
+}
+

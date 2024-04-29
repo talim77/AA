@@ -1,0 +1,83 @@
+
+    /* <uniquifier>: Use a unique and descriptive class name
+    <weight>: Use a value from 100 to 900 */
+
+*{
+    font-family: "Montserrat", sans-serif;
+    /* font-optical-sizing: 14px; */
+    /* font-style: normal; */
+}
+
+/* scrollbar */
+::-webkit-scrollbar{
+    width: 0.45rem;
+}
+::-webkit-scrollbar-track{
+    background: black;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(188, 188, 188, 1);
+}
+
+
+.bg-img{
+    background-image: url(assest/monstercat-bg-1024.webp);
+    background-position: center;
+}
+
+.bg-img-blur{
+    backdrop-filter: blur(5px) brightness(38%);
+}
+
+/* #z-index {
+    z-index: -2;
+} */
+
+/* #z-index-blur {
+    z-index: -1;
+} */
+
+/* #box-sado-half {
+    box-shadow: inset 0rem -51rem 1151rem -20rem rgba(0, 0, 0, 1);
+} */
+
+#box-shadow {
+    box-shadow: inset 0rem -39rem 65rem -30rem rgba(0, 0, 0, 1);
+    
+}
+
+
+
+
+@media (min-width: 769px) {
+
+    #webkit{
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
+    }
+
+    .title> p{
+        font-size: 22px !important;
+    }
+
+    
+}
+
+@media (min-width: 1185px) and (max-width: 11084px) {
+    header> nav{
+        display: block !important;
+        backdrop-filter: blur(0px) brightness(100%) !important;background-color: transparent !important;
+        padding: 1.5rem 1rem !important;
+    }
+
+    header #Icons{
+        display: none !important;
+    }
+
+    #SideBarIcons{
+        display: flex;
+    }
+
+}
+
+

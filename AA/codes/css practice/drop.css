@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 40px;
+}
+
+body
+{
+    background-color: rgb(24, 24, 46);
+}
+
+.menu> ul 
+{
+    display: flex;
+    gap: 50px;
+    z-index: 5;
+}
+
+.menu li
+{
+    transition: 500ms ease;
+}
+
+.menu > ul > li > .drop
+{
+    position: absolute;
+    left: -600px;
+    transition: 600ms ease;
+    z-index: -1;
+}
+
+.menu > ul > li:hover .drop
+{
+    color: black;
+    left: 52px;
+    z-index: -1;
+}
+
+
+
+
+
+.drop-inner{
+    border: 2px solid red;
+}
+
+.drop-inner:hover .inner-drop{
+    /* display: block; */
+    color: black;
+    left: 52px;
+    z-index: -1;
+}
+
+.inner-drop{
+    border: 2px solid blue;
+    display: hidden;
+    position: absolute;
+    left: -50px;
+    transition: 600ms ease;
+    z-index: -1;
+}

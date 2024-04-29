@@ -1,5 +1,9 @@
-# Local-machine
 
+# SIGMA RULES
+#   Agar kahi bhi programming me samjh naa aye to toda relax ho kar apni mistecks ko dhudho.
+
+
+# Local-machine
 isko create kiya hu
 git bash and GitHub ko learn karne k liye
 
