@@ -1,4 +1,24 @@
 
+Learning array methods
+Day 21 JS part 8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # SIGMA RULES
 #   Agar kahi bhi programming me samjh naa aye to toda relax ho kar apni mistecks ko dhudho.
 
