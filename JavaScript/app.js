@@ -73,9 +73,45 @@ console.log(ASCIIsum);
 
 // Question No.5 <============>
 console.log("// Question No.5");
-let arr2 = [2,4,6,8,7,5,3,];
+
+let obj = {
+    a: 10,
+    b: 20,
+    c: 30,
+    d: 40
+};
+let sumOfKeys = 0;
+let sumOf = () => {
+    for (key in obj) {
+        sumOfKeys += obj[key];
+    };
+    console.log(sumOfKeys);
+};
 
 
+// Question No.6 <============>
+console.log("// Question No.6");
+let obj2 = {
+    a: [1,2,3,4],
+    b: [5,6,7],
+    c: [8,9,0]
+};
+let arrOfAll = [];
+for (key in obj2) {
+    for (arr of obj2[key]) {
+        arrOfAll.push(arr);
+    };
+};
+console.log(arrOfAll);
 
 
+// Question No.7 <============>
+    console.log("// Question No.7");
+
+let fruits = ["apple", "banana", "cherry", "dates"];
+let sumOfFruits = 0;
+for (let el of fruits) {
+    sumOfFruits += el.length;
+};
+console.log(sumOfFruits);
 
