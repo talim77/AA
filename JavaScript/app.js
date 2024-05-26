@@ -106,7 +106,7 @@ console.log(arrOfAll);
 
 
 // Question No.7 <============>
-    console.log("// Question No.7");
+console.log("// Question No.7");
 
 let fruits = ["apple", "banana", "cherry", "dates"];
 let sumOfFruits = 0;
@@ -114,4 +114,21 @@ for (let el of fruits) {
     sumOfFruits += el.length;
 };
 console.log(sumOfFruits);
+
+
+// Question No.8 <============>
+console.log("// Question No.8");
+
+let arr3 = [1,2,3,4,5,6,7,8,9,10];
+
+arr3.forEach((e) => {
+    if( e % 2 == 0) {
+        evn.push(e);
+         
+    }
+});
+
+
+
+
 
