@@ -2,7 +2,7 @@
 // Question No.1
 
 //Solve Question No.1 <============>
-
+let b = "isi line m maine alag code likha hia"
 // Question No.2 <============>
 console.log("// Question No.2");
 let str = "talim";
