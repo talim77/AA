@@ -1,7 +1,9 @@
-// students obj ka name key ki value ko change kiya hai "Talim" to "Asmin"
+// students obj ka name key ki value ko change kiya hai "Talim" to "Asmin" 
+// ab isko pahale jaisa kar diya hu
+
 // Question No.1
 let students = {
-    name: "Asmin",
+    name: "Talim",
     marks: [99,97,98,96,95]
 };
 let avg = 0;
