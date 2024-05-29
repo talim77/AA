@@ -1,16 +1,6 @@
 // students obj ka name key ki value ko change kiya hai "Talim" to "Asmin
 // Question No.1
-let students = {
-    name: "Talim",
-    marks: [99,97,98,96,95]
-};
-let avg = 0;
-students.marks.forEach((el) => {
-    avg += el;
-});
-avg = avg/students.marks.length;
-console.log(students.name);
-console.log(`Avg: ${avg}`);
+
 //Solve Question No.1 <============>
 
 // Question No.2 <============>
