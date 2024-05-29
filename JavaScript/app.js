@@ -2,7 +2,7 @@
 // Question No.1
 
 //Solve Question No.1 <============>
-
+let a = "yaar pr nhi ho rha hai";
 // Question No.2 <============>
 console.log("// Question No.2");
 let str = "talim";
