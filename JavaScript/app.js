@@ -1,6 +1,4 @@
-// students obj ka name key ki value ko change kiya hai "Talim" to "Asmin" 
-// ab isko pahale jaisa kar diya hu
-
+// students obj ka name key ki value ko change kiya hai "Talim" to "Asmin
 // Question No.1
 let students = {
     name: "Talim",
