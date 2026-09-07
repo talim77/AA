@@ -119,6 +119,6 @@
 // });
 
 
-console.log("Talim");
+console.log("Talim"),
 
 
