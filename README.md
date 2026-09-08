@@ -14,6 +14,11 @@ git bash and GitHub ko learn karne k liye
 isko maine branch "Talim" me changes kiya hai
 
 
+https://codi.link/PCFET0NUWVBFIGh0bWw+DQo8aHRtbCBsYW5nPSJlbiIgPg0KPGhlYWQ+DQogIDxtZXRhIGNoYXJzZXQ9IlVURi04IiA+DQogIDxtZXRhIG5hbWU9InZpZXdwb3J0IiBjb250ZW50PSJ3aWR0aD1kZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MS4wIj4NCiAgPHRpdGxlPkhUTUwgcHJhY3RpY2U8L3RpdGxlPg0KICAgDQogICA8bGluayByZWw9InN0eWxlc2hlZXQiIGhyZWY9InN0eWxlLmNzcyI+DQoNCjwvaGVhZD4NCg0KDQoNCg0KPC9odG1sPg==%7C%7C
+
+ye link codi link ka hai jaha mera code sayad safe hoga
+
+
 <!-- {
     "synthwave84.brightness": 0.2,
     "files.autoSave": "afterDelay",
