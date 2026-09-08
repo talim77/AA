@@ -1,0 +1,9 @@
+/* center */
+*
+
+
+.center{
+      justify-content: center;
+      border: 4px;
+      border-color: red;
+}
