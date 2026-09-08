@@ -12,7 +12,7 @@ body{
       border-radius: 10px;
 }
 
-.center{
+.contaner{
       display: flex;
       flex-direction: column;
       justify-content: center;
