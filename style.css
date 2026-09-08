@@ -45,4 +45,5 @@ body{
 
 .userimg{
       max-width: fit-content;
+      width: 300px;
 }
