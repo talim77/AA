@@ -23,6 +23,11 @@ body{
       padding: 1%;
 }
 
+.rede{
+      color: red;
+}
+
+
 div{
       display: flex;
       flex-direction: column;
@@ -34,6 +39,6 @@ div{
       margin: 2%;
 }
 
-.rede{
-      color: red;
+#CardID{
+      border: 5px solid palevioletred;
 }
