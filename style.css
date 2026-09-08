@@ -42,3 +42,7 @@ body{
 #CardID{
       border: 5px solid palevioletred;
 }
+
+.userimg{
+      max-width: fit-content;
+}
