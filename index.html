@@ -29,19 +29,19 @@
     </div>
     
 
-<script>
-function randomInteger(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+  <script>
+    function randomInteger(min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
 
-function generateRandomNumber() {
-  document.getElementById("randomNumber").textContent =
-    randomInteger(1, 100);
-}
+    function generateRandomNumber() {
+      document.getElementById("randomNumber").textContent =
+        randomInteger(1, 100);
+    }
 
-document.addEventListener("keydown", generateRandomNumber);
-document.addEventListener("click", generateRandomNumber);
-</script>
+    document.addEventListener("keydown", generateRandomNumber);
+    document.addEventListener("click", generateRandomNumber);
+  </script>
 
 </body>
 </html>
