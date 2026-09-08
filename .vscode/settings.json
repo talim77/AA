@@ -14,5 +14,6 @@
         "tarah",
         "toda"
     ],
-    "livePreview.defaultPreviewPath": "/JavaScript/index.html"
+    "livePreview.defaultPreviewPath": "/JavaScript/index.html",
+    "emmet.triggerExpansionOnTab": true
 }
