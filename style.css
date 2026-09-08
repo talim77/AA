@@ -1,5 +1,9 @@
 /* center */
 *
+{
+      color: aqua;
+      background-color: cadetblue;
+}
 
 .center{
       display: flex;
